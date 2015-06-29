@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Nam Puzzle</title>
+<script type="text/javascript" src="board.js"></script> 
+<link rel="stylesheet" type="text/css" href="nam_puzzle.css">
+<link rel="stylesheet" type="text/css" href="normalize.css">
+</head>
+<body >
+ 
+<div id="header">
+  <h1>Nam Puzzle</h1>
+</div>
+<div id="board"></div>
+<br>
+<button onclick="check_solution()" class="button">Check Solution</button>
+<br />
+<p>
+<a onclick="document.getElementById('div_hint').style.display='';return false;" 
+href="" style="text-decoration:none;">
+Hint</a></p>
+
+<div id="div_hint" style="display:none;margin:15px 15px 0px 15px;padding:5px;">
+<code> a + (13b/c) + d + 12e &minus; f &minus; 11 + (gh/i) &minus; 10 = 66 </code>
+<a onclick="document.getElementById('div_hint').style.display='none';return false;" href="" 
+style="text-decoration:none;border-bottom:1px dotted blue;">hide</a>
+</div>
+
+
+
+
+<div id="footer">
+  <h3>How to play Nam Puzzle </h3>
+  <p>Fill in the gaps with digits 1-9 (once only) to get result 66</p>
+  <p>NamPuzzle</span> by <a href="http://tkmallik.github.io">Venkat Turlapati</a>,  fork this  <a href="https://github.com/tkmallik">project</a> on GitHub</a> </p>
+    
+  <h3>About</h3>
+
+ <p> According to the <b><a href="http://vnexpress.net/tin-tuc/giao-duc/bai-toan-lop-3-lam-kho-ca-tien-si-3220186.html">VN Express</a></b>  this problem was set for third graders in the town of Bao Loc, Vietnam.</p>
+  
+  <h3>Credits</h3>
+<p>Styling inspired by <a href="https://github.com/octatone/SudokuNomi">https://github.com/octatone/SudokuNomi</a></p>
+<p>Hide feature by <a href="http://bizinfosys.com/javascript/show-hide-div-with-link-and-css.html">http://bizinfosys.com/javascript/show-hide-div-with-link-and-css.html"</a></p>
+<p>Various Javascript questions answered at <a href="http:stackoverflow.com">http:stackoverflow.com</a></p>
+ 
+</div>
+</body>
+</html>
