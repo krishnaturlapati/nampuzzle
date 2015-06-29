@@ -1,0 +1,142 @@
+body{
+     text-align: center; /* suck it */
+}
+
+#board {
+ padding: 10px;
+}
+ 
+table {
+    border-collapse:collapse;
+    margin:0;
+    padding: 0;
+ /*   border:2px */
+    solid #000000;
+}
+
+#board table {
+    background: #FFF;
+    margin: 0 auto;
+
+}
+
+ .userCell {
+	border:2px solid #000000;
+    width:50px;
+    height:50px;
+    text-align:center;
+    font-size:1.75em;
+
+}
+
+.userCell:hover{
+    background-color: #EEE; 
+    color: #000;
+}
+
+
+
+
+
+.operatorCell{
+	border:2px solid #000000;
+    width:50px;
+    height:50px;
+    text-align:center;
+    font-size:1.75em;
+    background-color: #9999FF;
+
+}
+
+.fixedCell{
+	border:2px solid #000000;
+    width:50px;
+    height:50px;
+    text-align:center;
+    font-size:1.75em;
+    background-color: #FFCC33;
+    font-weight: bold;
+}
+
+.emptyCellTopBottom{
+	border-top: 0px;
+	border-bottom: 0px;
+    width:50px;
+    height:50px;
+}
+
+.emptyCellNoBottom{
+
+	border-bottom: 0px;
+    width:50px;
+    height:50px;
+}
+.emptyCellNoTop{
+
+	border-top: 0px;
+    width:50px;
+    height:50px;
+}
+
+/* input dialog */
+.input-dialog, .input-input{
+    padding: 0;
+    margin: 0;
+    width: 48px;
+    height: 48px;
+    border-radius: 10px;
+}
+
+.input-dialog {
+    position: absolute;
+    background: white;
+    border: 1px solid blue;
+    box-shadow: 0 0 10px #000;
+    opacity: 0.8;
+}
+.input-input {
+    border: none;
+    outline: none;
+    text-align: center;
+    font-size: 24px;
+    line-height: 48px; /* fucking ie */
+}
+
+
+.button {
+    color: #006400;    
+    font-size: 100%;
+    text-decoration: none;
+    padding: 10px 15px !important;
+    margin: 0 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    cursor: pointer;
+    /* cross b gradient */
+    background: #ccffcc; /* Old browsers */
+    background: -moz-linear-gradient(top, #ccffcc 0%, #3fff3f 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ccffcc), color-stop(100%,#3fff3f)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #ccffcc 0%,#3fff3f 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #ccffcc 0%,#3fff3f 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #ccffcc 0%,#3fff3f 100%); /* IE10+ */
+    background: linear-gradient(top, #ccffcc 0%,#3fff3f 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ccffcc', endColorstr='#3fff3f',GradientType=0 ); /* IE6-9 */        
+}
+
+.button:hover {
+    color: #000;
+    background: #7FFF7F;
+    -webkit-box-shadow: 0 0 2px #666;
+    -moz-box-shadow: 0 0 2px #666;
+    box-shadow: 0 0 2px #666;
+}
+.button:active {
+    color: #006400;
+    border: 1px solid #7FFF7F;
+    -webkit-box-shadow: inset 1px 1px 2px #444;
+    -moz-box-shadow: inset 1px 1px 2px #444;
+    box-shadow: inset 1px 1px 2px #444;
+}
+
