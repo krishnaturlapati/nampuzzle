@@ -1,4 +1,6 @@
 #Nam Puzzle
+###[`Play here`][link2] 
+
 
 Few weeks ago I read an article in [`The Guardian`][link1] titled Nam Puzzle, at first it looked like Sudoku but its an algebraic equation twisted like a snake. Objective of this puzzle is simple, there are nine empty cells, fill the empty cells with numbers from 1 to 9 and no number can repeat itself. 
 
