@@ -6,7 +6,7 @@ Few weeks ago I read an article in [`The Guardian`][link1] titled Nam Puzzle, at
 
 ![Nam Puzzle](https://github.com/tkmallik/tkmallik.github.io/blob/master/img/nam_puzzle_original.png)
 
-It took some time and silly 3rd grade mistakes to figure out the equation and was not patient enough to solve the problem by hand, `itertools. permutations` in Python did the trick. There are 2672 solutions to that puzzle 
+It took some time to figure out the equation and was not patient enough to solve the problem by hand, `itertools. permutations` in Python did the trick. There are 2672 solutions to that puzzle 
 
 ``` python 
 
