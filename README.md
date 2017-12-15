@@ -14,12 +14,12 @@ import itertools
 
   
 def nam_solver(nums):
-	if (nums[0] + (13*nums[1]/nums[2]) + nums[3] + 12*nums[4] - nums[5] - 11 + (nums[6]*nums[7]/nums[8]) - 10 == 66):
-		print nums
+  if (nums[0] + (13*nums[1]/nums[2]) + nums[3] + 12*nums[4] - nums[5] - 11 + (nums[6]*nums[7]/nums[8]) - 10 == 66):
+    print nums
 	
 if __name__ == '__main__':
-	for nums in itertools.permutations(xrange(1,10), 9):
-		nam_solver(nums)
+  for nums in itertools.permutations(xrange(1,10), 9):
+    nam_solver(nums)
 		
 ```
 
